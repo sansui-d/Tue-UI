@@ -4,7 +4,9 @@
   "description": "这是一个UI框架",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "parcel index.html",
+    "build": "parcel inedex.html"
   },
   "repository": {
     "type": "git",
@@ -21,6 +23,16 @@
   },
   "homepage": "https://github.com/sansui-d/TueUI#readme",
   "dependencies": {
-    "vue": "^2.6.14"
+    "vue": "^2.6.14",
+    "vue-hot-reload-api": "^2.3.4"
+  },
+  "devDependencies": {
+    "@vue/component-compiler-utils": "^3.3.0",
+    "parcel-bundler": "^1.12.5",
+    "sass": "^1.43.4",
+    "vue-template-compiler": "^2.6.14"
+  },
+  "alias": {
+    "vue": "./node_modules/vue/dist/vue.common.js"
   }
 }
