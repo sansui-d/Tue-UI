@@ -19,5 +19,8 @@
   "bugs": {
     "url": "https://github.com/sansui-d/TueUI/issues"
   },
-  "homepage": "https://github.com/sansui-d/TueUI#readme"
+  "homepage": "https://github.com/sansui-d/TueUI#readme",
+  "dependencies": {
+    "vue": "^2.6.14"
+  }
 }
