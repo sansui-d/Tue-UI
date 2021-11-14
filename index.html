@@ -7,33 +7,58 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Tue</title>
     <style>
-        *{box-sizing: border-box;margin: 0;padding: 0;}
-        :root{
-            --button-height:32px;
-            --font-size:14px;
-            --button-bg:white;
+        * {
+            box-sizing: border-box;
+            margin: 0;
+            padding: 0;
+        }
+
+        :root {
+            --button-height: 32px;
+            --font-size: 14px;
+            --button-bg: white;
             --button-active-bg: #eee;
             --button-radius: 4px;
-            --color:#333;
-            --border-color:#999;
-            --border-color-hover:#666;
+            --color: #333;
+            --border-color: #999;
+            --border-color-hover: #666;
         }
-        body{
+
+        body {
             font-size: var(--font-size);
         }
     </style>
     <style>
-        
+
     </style>
 </head>
 
 <body>
     <div id="app">
-        <Tbutton>按钮</Tbutton>
-        <Tbutton icon="loading" icon-position="right">按钮</Tbutton>
-        <Tbutton icon="setting" icon-position="left">按钮</Tbutton>
+        <div>
+            <t-tabs selected="1">
+                <t-tabs-head>
+                    <t-tabs-item name="1">11</t-tabs-item>
+                    <t-tabs-item name="2">22</t-tabs-item>
+                </t-tabs-head>
+                <t-tabs-body>
+                    <t-tabs-pane name="1">11</t-tabs-pane>
+                    <t-tabs-pane name="2">22</t-tabs-pane>
+                </t-tabs-body>
+            </t-tabs>
+        </div>
+        <div>
+            <t-button icon="left" :loading="loading" @click="loading=!loading">按钮</t-button>
+            <t-button icon="left" :loading="true" icon-position="right">按钮</t-button>
+            <t-button icon="setting" :loading="false" icon-position="left">按钮</t-button>
+        </div>
+        <div>
+            
+        </div>
     </div>
+    <div class="test"></div>
 </body>
 <script src="./src/vue.js"></script>
-<script src="//at.alicdn.com/t/font_2935755_xmz5siaqrj.js"></script>
+<script src="//at.alicdn.com/t/font_2935755_xxt32gm8er8.js"></script>
+
 </html>
