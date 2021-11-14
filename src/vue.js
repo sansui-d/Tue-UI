@@ -6,6 +6,7 @@ import TabsHead from './tabs-head.vue'
 import TabsBody from './tabs-body.vue'
 import TabsItem from './tabs-item.vue'
 import TabsPane from './tabs-pane.vue'
+import Input from './input.vue'
 Vue.component('t-button',Button)
 Vue.component('t-icon',Icon)
 Vue.component('t-tabs',Tabs)
@@ -13,6 +14,7 @@ Vue.component('t-tabs-head',TabsHead)
 Vue.component('t-tabs-body',TabsBody)
 Vue.component('t-tabs-item',TabsItem)
 Vue.component('t-tabs-pane',TabsPane)
+Vue.component('t-input',Input)
 new Vue({
     el:'#app',
     data:{
