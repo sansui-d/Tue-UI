@@ -6,7 +6,9 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "dev": "parcel index.html",
-    "build": "parcel inedex.html"
+    "build": "parcel inedex.html",
+    "docs:dev": "vuepress dev docs",
+    "docs:build": "vuepress build docs"
   },
   "repository": {
     "type": "git",
@@ -41,7 +43,8 @@
     "sass": "^1.43.4",
     "sinon": "^12.0.1",
     "sinon-chai": "^3.7.0",
-    "vue-template-compiler": "^2.6.14"
+    "vue-template-compiler": "^2.6.14",
+    "vuepress": "^1.8.2"
   },
   "alias": {
     "vue": "./node_modules/vue/dist/vue.common.js"

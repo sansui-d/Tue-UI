@@ -75,6 +75,51 @@
             <t-button @click="$toast('点击弹出提示', {position:'middle'})">中间弹出</t-button>
             <t-button @click="$toast('点击弹出提示', {position:'bottom'})">下方弹出</t-button>
         </div>
+        <div>
+            <t-layout style="color: white; overflow:hidden; margin-bottom:50px;">
+                <t-header style="height: 50px; background:#9E91F2;">
+                  header
+                </t-header>
+                <t-layout>
+                  <t-sider style="height: 100px; background:#ddd; width:200px; color: black;">
+                    sider
+                  </t-sider>
+                  <t-content style="height: 100px; background:#7B62D9;">
+                    content
+                  </t-content>
+                </t-layout>
+                <t-footer style="height: 50px; background:#9E91F2;">
+                  footer
+                </t-footer>
+            </t-layout>
+        </div>
+        <div>
+            <t-row class="demoRow" gutter="10">
+                <t-col span="8">
+                  <div class="demoCol" style="background-color: #7B62D9;">8</div>
+                </t-col>
+                <t-col span="8">
+                  <div class="demoCol">8</div>
+                </t-col>
+                <t-col span="8">
+                  <div class="demoCol">8</div>
+                </t-col>
+              </t-row>
+              <t-row class="demoRow" gutter="10">
+                <t-col span="6">
+                  <div class="demoCol">6</div>
+                </t-col>
+                <t-col span="6">
+                  <div class="demoCol">6</div>
+                </t-col>
+                <t-col span="6">
+                  <div class="demoCol">6</div>
+                </t-col>
+                <t-col span="6">
+                  <div class="demoCol">6</div>
+                </t-col>
+              </t-row>
+        </div>
     </div>
     <div class="test"></div>
 </body>

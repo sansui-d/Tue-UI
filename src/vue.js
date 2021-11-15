@@ -12,6 +12,13 @@ import Collapse from './collapse.vue'
 import CollapseItem from './collapse-item.vue'
 import plugin from './plugin.js'
 import Toast from './toast.vue'
+import Layout from './layout.vue'
+import Header from './header.vue'
+import Content from './content.vue'
+import Footer from './footer.vue'
+import Sider from './sider.vue'
+import Row from './row.vue'
+import Col from './col.vue'
 Vue.component('t-button',Button)
 Vue.component('t-icon',Icon)
 Vue.component('t-tabs',Tabs)
@@ -25,6 +32,13 @@ Vue.component('t-collapse',Collapse)
 Vue.component('t-collapse-item',CollapseItem)
 Vue.use(plugin)
 Vue.component('t-toast',Toast)
+Vue.component('t-layout',Layout)
+Vue.component('t-header',Header)
+Vue.component('t-content',Content)
+Vue.component('t-footer',Footer)
+Vue.component('t-sider',Sider)
+Vue.component('t-col',Col)
+Vue.component('t-row',Row)
 new Vue({
     el:'#app',
     data:{
