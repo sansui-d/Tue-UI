@@ -70,6 +70,11 @@
                 <t-collapse-item title="标题3" name="3">我在等你呀</t-collapse-item>
             </t-collapse>
         </div>
+        <div>
+            <t-button @click="$toast('点击弹出提示')">上方弹出</t-button>
+            <t-button @click="$toast('点击弹出提示', {position:'middle'})">中间弹出</t-button>
+            <t-button @click="$toast('点击弹出提示', {position:'bottom'})">下方弹出</t-button>
+        </div>
     </div>
     <div class="test"></div>
 </body>
