@@ -63,6 +63,13 @@
                 </template>
             </t-popover>
         </div>
+        <div>
+            <t-collapse :selected.sync="selectedTab" single>
+                <t-collapse-item title="标题1" name="1">hell</t-collapse-item>
+                <t-collapse-item title="标题2" name="2">你知道我在想你吗</t-collapse-item>
+                <t-collapse-item title="标题3" name="3">我在等你呀</t-collapse-item>
+            </t-collapse>
+        </div>
     </div>
     <div class="test"></div>
 </body>

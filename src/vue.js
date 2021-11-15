@@ -8,6 +8,8 @@ import TabsItem from './tabs-item.vue'
 import TabsPane from './tabs-pane.vue'
 import Input from './input.vue'
 import Popover from './popover.vue'
+import Collapse from './collapse.vue'
+import CollapseItem from './collapse-item.vue'
 Vue.component('t-button',Button)
 Vue.component('t-icon',Icon)
 Vue.component('t-tabs',Tabs)
@@ -17,11 +19,14 @@ Vue.component('t-tabs-item',TabsItem)
 Vue.component('t-tabs-pane',TabsPane)
 Vue.component('t-input',Input)
 Vue.component('t-popover',Popover)
+Vue.component('t-collapse',Collapse)
+Vue.component('t-collapse-item',CollapseItem)
 new Vue({
     el:'#app',
     data:{
         loading:false,
-        selected:'1'
+        selected:'1',
+        selectedTab:['1']
     }
 })
 
