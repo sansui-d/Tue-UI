@@ -1,129 +1,38 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="zh-Hans">
 
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Tue</title>
-    <style>
-        * {
-            box-sizing: border-box;
-            margin: 0;
-            padding: 0;
-        }
+  <meta charset="UTF-8">
+  <meta name="viewport"
+    content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Tue-UI</title>
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box
+    }
 
-        :root {
-            --button-height: 32px;
-            --font-size: 14px;
-            --button-bg: white;
-            --button-active-bg: #eee;
-            --button-radius: 4px;
-            --color: #333;
-            --border-color: #999;
-            --border-color-hover: #666;
-        }
+    html {
+      --button-height: 32px;
+      --font-size: 14px;
+      --button-bg: white;
+      --button-active-bg: #eee;
+      --border-radius: 4px;
+      --color: #333;
+      --border-color: #999;
+      --border-color-hover: #666;
+    }
 
-        body {
-            font-size: var(--font-size);
-        }
-    </style>
-    <style>
-
-    </style>
+    body {
+      font-size: var(--font-size);
+    }
+  </style>
 </head>
 
 <body>
-    <div id="app">
-        <div>
-            <t-tabs selected="1">
-                <t-tabs-head>
-                    <t-tabs-item name="1">11</t-tabs-item>
-                    <t-tabs-item name="2">22</t-tabs-item>
-                </t-tabs-head>
-                <t-tabs-body>
-                    <t-tabs-pane name="1">11</t-tabs-pane>
-                    <t-tabs-pane name="2">22</t-tabs-pane>
-                </t-tabs-body>
-            </t-tabs>
-        </div>
-        <div>
-            <t-button icon="left" :loading="loading" @click="loading=!loading">按钮</t-button>
-            <t-button icon="left" :loading="true" icon-position="right">按钮</t-button>
-            <t-button icon="setting" :loading="false" icon-position="left">按钮</t-button>
-        </div>
-        <div>
-            <t-input></t-input>
-        </div>
-        <div>
-            <t-popover position="right">
-                <t-button>左边弹出</t-button>
-                <template slot="content">
-                    <strong style="color: #F1453D">加粗的提示</strong>
-                </template>
-            </t-popover>
-        </div>
-        <div>
-            <t-collapse :selected.sync="selectedTab" single>
-                <t-collapse-item title="标题1" name="1">hell</t-collapse-item>
-                <t-collapse-item title="标题2" name="2">你知道我在想你吗</t-collapse-item>
-                <t-collapse-item title="标题3" name="3">我在等你呀</t-collapse-item>
-            </t-collapse>
-        </div>
-        <div>
-            <t-button @click="$toast('点击弹出提示')">上方弹出</t-button>
-            <t-button @click="$toast('点击弹出提示', {position:'middle'})">中间弹出</t-button>
-            <t-button @click="$toast('点击弹出提示', {position:'bottom'})">下方弹出</t-button>
-        </div>
-        <div>
-            <t-layout style="color: white; overflow:hidden; margin-bottom:50px;">
-                <t-header style="height: 50px; background:#9E91F2;">
-                  header
-                </t-header>
-                <t-layout>
-                  <t-sider style="height: 100px; background:#ddd; width:200px; color: black;">
-                    sider
-                  </t-sider>
-                  <t-content style="height: 100px; background:#7B62D9;">
-                    content
-                  </t-content>
-                </t-layout>
-                <t-footer style="height: 50px; background:#9E91F2;">
-                  footer
-                </t-footer>
-            </t-layout>
-        </div>
-        <div>
-            <t-row class="demoRow" gutter="10">
-                <t-col span="8">
-                  <div class="demoCol" style="background-color: #7B62D9;">8</div>
-                </t-col>
-                <t-col span="8">
-                  <div class="demoCol">8</div>
-                </t-col>
-                <t-col span="8">
-                  <div class="demoCol">8</div>
-                </t-col>
-              </t-row>
-              <t-row class="demoRow" gutter="10">
-                <t-col span="6">
-                  <div class="demoCol">6</div>
-                </t-col>
-                <t-col span="6">
-                  <div class="demoCol">6</div>
-                </t-col>
-                <t-col span="6">
-                  <div class="demoCol">6</div>
-                </t-col>
-                <t-col span="6">
-                  <div class="demoCol">6</div>
-                </t-col>
-              </t-row>
-        </div>
-    </div>
-    <div class="test"></div>
+  <script src="src/app.js"></script>
 </body>
-<script src="./src/vue.js"></script>
-<script src="//at.alicdn.com/t/font_2935755_xxt32gm8er8.js"></script>
 
 </html>

@@ -1,53 +1,52 @@
 <template>
-  <div class="tabs-item" @click="onClick" :class="classes" :date-name="name">
-    <!-- 这个自定义属性方便测试用-->
+  <div class="tabs-item" @click="onClick" :class="classes" :date-name="name">  <!-- 这个自定义属性方便测试用-->
     <slot></slot>
   </div>
 </template>
 <script>
 export default {
-    name:'TTabsItem',
-  inject: ["eventBus"],
+  name: 'TueTabsItem',
+  inject: ['eventBus'],
   data() {
     return {
-      active: false,
-    };
+      active: false
+    }
   },
   props: {
     disabled: {
       type: Boolean,
-      default: false,
+      default: false
     },
     name: {
       type: String | Number,
-      required: true,
-    },
+      required: true
+    }
   },
   computed: {
     classes() {
       return {
         active: this.active,
-        disabled: this.disabled,
-      };
-    },
+        disabled: this.disabled
+      }
+    }
   },
   created() {
-    if (this.eventBus) {
-      this.eventBus.$on("update:selected", (name) => {
-        this.active = name === this.name;
-      });
+    if(this.eventBus){
+      this.eventBus.$on('update:selected', (name) => {
+        this.active = (name === this.name)
+      })
     }
   },
   methods: {
     onClick() {
       if (this.disabled) {
-        return;
+        return
       }
-      this.eventBus && this.eventBus.$emit("update:selected", this.name, this);
-      this.$emit("click", this); // 这句方便测试用
-    },
-  },
-};
+      this.eventBus && this.eventBus.$emit('update:selected', this.name, this)
+      this.$emit('click',this)  // 这句方便测试用
+    }
+  }
+}
 </script>
 <style scoped lang="scss">
 @import "helper";
@@ -59,7 +58,7 @@ export default {
   display: flex;
   align-items: center;
   &.active {
-    color: $blue;
+    color: #409eff;
     font-weight: bold;
   }
   &.disabled {

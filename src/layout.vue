@@ -5,7 +5,6 @@
 </template>
 <script>
 export default {
-    name:"TLayout",
   data(){
     return{
       layoutClass:{
@@ -15,7 +14,7 @@ export default {
   },
   mounted() {
     this.$children.forEach((vm)=>{
-      if(vm.$options.name === 'TSider'){
+      if(vm.$options.name === 'TueSider'){
         this.layoutClass.hasSider = true
       }
     })

@@ -6,7 +6,7 @@
 <script>
 import Vue from 'vue'
 export default {
-  name: 'TCollapse',
+  name: 'TueCollapse',
   props:{
     single:{
       type:Boolean,

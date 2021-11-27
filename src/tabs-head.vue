@@ -9,7 +9,7 @@
 </template>
 <script>
 export default {
-    name:'TTabsHead',
+  name:'TueTabsHead',
   inject:['eventBus'],
   mounted() {
     this.eventBus.$on('update:selected',(item,vm)=>{
@@ -34,8 +34,8 @@ export default {
   border-bottom: solid 1px $tabs-border-color;
   > .line{
     position: absolute;
-    bottom: 0;
-    border-bottom: 1px solid $blue;
+    bottom: -2px;
+    border-bottom: 2px solid #409eff;
     transition: all 350ms;
   }
   > .actions-wrapper{

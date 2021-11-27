@@ -1,16 +1,19 @@
 <template>
-  <svg class="Ticon"><use :xlink:href="`#i-${name}`"></use></svg>
+  <svg class="t-icon">
+    <use :xlink:href="`#i-${name}`"></use>
+  </svg>
 </template>
+
 <script>
+import './svg.js'
+
 export default {
-  name:'TIcon',
-  props: {
-    name: String,
-  }
-};
+  name: 'TueIcon',
+  props: ['name']
+}
 </script>
-<style lang="less" scoped>
-.Ticon {
+<style lang="scss" scoped>
+.t-icon {
   width: 1em;
   height: 1em;
 }

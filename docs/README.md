@@ -1,16 +1,16 @@
 ---
 home: true
-heroImage: /Tue.png
-heroText: Tue-UI
-tagline: 基于Vue的 UI 组件库
-actionText: Let's go →
+heroImage: /hero.jpg
+heroText: Ice-UI
+tagline: 一个基于Vue的 UI 组件库
+actionText: 快速上手 →
 actionLink: /get-started/
 features:
-- title: 简洁清新
-  details: 简洁清新的风格帮助您构建页面。
+- title: 简洁至上
+  details: 以简洁易上手为中心思想，以简易的配置帮助你构建项目。
 - title: Vue驱动
-  details: Vue是一套用于构建用户界面的渐进式JavaScript框架。
-- title: 开源至上
-  details: 开源让您可以更好得了解组件的诞生。
-footer: Dylan | 2021
+  details: Vue是一套用于构建用户界面的渐进式JavaScript框架，目前绝大部分前端人员都在使用。
+- title: 持续集成
+  details: 项目在构建之时坚持给每个组件写测试，并通过 Travis-CI 做了持续集成，保证了项目的高质量。
+footer: MIT Licensed | Copyright © 2020-present Burt
 ---

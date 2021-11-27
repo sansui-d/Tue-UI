@@ -18,7 +18,7 @@ let validator = (value) => {
   return valid
 }
 export default {
-  name: 'TCol',
+  name: 'TueCol',
   data() {
     return {
       gutter: 0

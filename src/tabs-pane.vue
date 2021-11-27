@@ -5,7 +5,7 @@
 </template>
 <script>
 export default {
-    name:'TTabsPane',
+  name:'TueTabsPane',
   inject:['eventBus'],
   data(){
     return {

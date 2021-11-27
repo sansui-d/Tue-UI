@@ -5,7 +5,7 @@
 </template>
 <script>
 export default {
-    name:'TTabsBody',
+  name:'TueTabsBody',
   inject:['eventBus'],
   created() {
   }

@@ -11,7 +11,7 @@
 </template>
 <script>
 export default {
-  name: 'TPopover',
+  name: 'TuePopover',
   data() {
     return {visible: false}
   },
@@ -117,7 +117,7 @@ export default {
 
 .content-wrapper {
   position: absolute;
-  border: solid 1px $popover-border-color;
+  // border: solid 1px $popover-border-color;
   border-radius: $border-radius;
   filter: drop-shadow(0 1px 1px rgba(0, 0, 0, 0.5));
   background: white;
@@ -140,7 +140,7 @@ export default {
       left: 10px;
     }
     &::before {
-      border-top-color: black;
+      // border-top-color: black;
       border-bottom: none;
       top: 100%;
     }
@@ -156,7 +156,7 @@ export default {
       left: 10px;
     }
     &::before {
-      border-bottom-color: black;
+      // border-bottom-color: black;
       border-top: none;
       bottom: 100%
     }
@@ -174,7 +174,7 @@ export default {
       top: 50%;
     }
     &::before {
-      border-left-color: black;
+      // border-left-color: black;
       border-right: none;
       left: 100%
     }
@@ -191,7 +191,7 @@ export default {
       top: 50%;
     }
     &::before {
-      border-right-color: black;
+      // border-right-color: black;
       border-left: none;
       right: 100%
     }

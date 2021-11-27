@@ -1,9 +1,9 @@
 module.exports = {
-  base:'/Tue-UI/',
-  title: 'Tue-UI',
+  base:'/ice-ui/',
+  title: 'Ice-UI',
   description: '一个简约、易用的 UI 框架',
   themeConfig: {
-    logo: '/assets/img/Tue.png',
+    logo: '/assets/img/logo.png',
     nav: [
       {text: '主页', link: '/'},
       {text: '文档', link: '/get-started/'},

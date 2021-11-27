@@ -7,7 +7,7 @@ title:快速上手
 ### npm 安装
 
 ```bash
-npm i tue-ui -S
+npm i ice-vue-ui -S
 ```
 
 ### 开始使用
@@ -22,7 +22,7 @@ npm i tue-ui -S
 
 IE 8及以上浏览器都支持此样式
 
-2. 引入 tue-ui
+2. 引入 ice-vue-ui
 
 按需引入需要的组件，以达到减小项目体积的目的。
 
@@ -30,7 +30,7 @@ IE 8及以上浏览器都支持此样式
 
 ```js
 import {Button, ButtonGroup, Icon} from 'ice-vue-ui'
-import 'tue-ui/dist/index.css'
+import 'ice-vue-ui/dist/index.css'
 
 export default {
   name: 'app',

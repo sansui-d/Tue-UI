@@ -8,7 +8,7 @@
 </template>
 <script>
 export default {
-  name:'TSider',
+  name:'TueSider',
   data(){
     return{
       visible:true

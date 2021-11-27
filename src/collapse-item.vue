@@ -10,7 +10,7 @@
 </template>
 <script>
 export default {
-  name: 'TCollapseItem',
+  name: 'TueCollapseItem',
   props:{
     title:{
       type:String,

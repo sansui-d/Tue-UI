@@ -14,15 +14,15 @@ title: 介绍
 
 ### 基本信息
 
-Tue-UI 是一个基于 Vue 的 UI 组件库，目前包括有 Button、Tabs、Input、Grid、
+Ice-UI 是一个基于 Vue 的 UI 组件库，目前包括有 Button、Tabs、Input、Grid、
 Layout、Toast、Collapse、Popover 组件。项目尚未完工，持续更新中。
 
-Tue-UI是个人学习过程中造出来的UI库，如果你在使用过程中发现问题，
+Ice-UI是个人学习过程中造出来的UI库，如果你在使用过程中发现问题，
 非常感谢你提出宝贵意见。
 PS：目前项目属于开发中，暂不建议在生产项目中使用。
 
 ### 作者
 
-- Dylan
+- Burt
 - 联系方式：c_burt(wechat) ，欢迎交流学习
-- [Github](https://github.com/sansui-d/Tue-UI)
+- [Github](https://github.com/Orange-ice/ice-ui)
