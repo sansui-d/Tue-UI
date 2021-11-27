@@ -11,7 +11,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/Tue-UI.git"
+    "url": "git+https://github.com/sansui-d/Tue-UI.git"
   },
   "keywords": [
     "vue",
@@ -20,9 +20,9 @@
   "author": "Dlyan",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/Tue-UI/issues"
+    "url": "https://github.com/sansui-d/Tue-UI/issues"
   },
-  "homepage": "https://github.com/Tue-UI#readme",
+  "homepage": "https://github.com/sansui-d/Tue-UI#readme",
   "dependencies": {
     "core-js": "^3.6.5",
     "vue": "^2.6.11",
