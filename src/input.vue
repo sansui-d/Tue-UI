@@ -57,8 +57,7 @@ export default {
     padding: 0 8px;
     font-size: inherit;
     &:hover {
-      box-shadow: 0 0 8px 0 rgb(232 237 250 / 60%),
-        0 2px 4px 0 rgb(232 237 250 / 50%);
+      border-color: $border-color-hover
     }
     &:focus {
       border-color: #409eff;

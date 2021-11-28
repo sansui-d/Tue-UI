@@ -3,8 +3,6 @@ title: Popover 弹出框
 ---
 # Popover 弹出框
 
-**使用方法**
-
 ### 支持 HTML
 
 #### 预览
@@ -16,30 +14,30 @@ title: Popover 弹出框
 #### 示例代码
 
 ```vue
-<i-popover position="left">
-  <i-button>左边弹出</i-button>
+<t-popover position="left">
+  <t-button>左边弹出</t-button>
   <template slot="content">
     <strong style="color: #F1453D">加粗的提示</strong>
   </template>
-</i-popover>
-<i-popover>
-  <i-button>上方弹出</i-button>
+</t-popover>
+<t-popover>
+  <t-button>上方弹出</t-button>
   <template slot="content">
-    <a href="https://github.com/Orange-ice/Ice-UI">这是个a链接</a>
+    <a href="https://github.com/sansui-d/Tue-UI">这是个a链接</a>
   </template>
-</i-popover>
-<i-popover position="bottom">
-  <i-button>下方弹出</i-button>
-  <template slot="content">
-    普通文本内容
-  </template>
-</i-popover>
-<i-popover position="right">
-  <i-button>右边弹出</i-button>
+</t-popover>
+<t-popover position="bottom">
+  <t-button>下方弹出</t-button>
   <template slot="content">
     普通文本内容
   </template>
-</i-popover>
+</t-popover>
+<t-popover position="right">
+  <t-button>右边弹出</t-button>
+  <template slot="content">
+    普通文本内容
+  </template>
+</t-popover>
 ```
 
 ### 支持 hover 触发
@@ -53,30 +51,30 @@ title: Popover 弹出框
 #### 示例代码
 
 ```vue
-<i-popover position="left" trigger="hover">
-  <i-button>左边弹出</i-button>
+<t-popover position="left" trigger="hover">
+  <t-button>左边弹出</t-button>
   <template slot="content">
     弹出内容
   </template>
-</i-popover>
-<i-popover trigger="hover">
-  <i-button>上方弹出</i-button>
+</t-popover>
+<t-popover trigger="hover">
+  <t-button>上方弹出</t-button>
   <template slot="content">
     弹出内容
   </template>
-</i-popover>
-<i-popover position="bottom" trigger="hover">
-  <i-button>下方弹出</i-button>
+</t-popover>
+<t-popover position="bottom" trigger="hover">
+  <t-button>下方弹出</t-button>
   <template slot="content">
     弹出内容
   </template>
-</i-popover>
-<i-popover position="right" trigger="hover">
-  <i-button>右边弹出</i-button>
+</t-popover>
+<t-popover position="right" trigger="hover">
+  <t-button>右边弹出</t-button>
   <template slot="content">
     弹出内容
   </template>
-</i-popover>
+</t-popover>
 ```
 
 # Attributes

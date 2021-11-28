@@ -1,11 +1,11 @@
 <template>
   <div class="wrapper">
     <div>
-      <i-collapse :selected.sync="selectedTab" single>
-        <i-collapse-item title="标题1" name="1">hello，你好呢。</i-collapse-item>
-        <i-collapse-item title="标题2" name="2">你知道我在想你吗?</i-collapse-item>
-        <i-collapse-item title="标题3" name="3">我在等你呀!</i-collapse-item>
-      </i-collapse>
+      <t-collapse :selected.sync="selectedTab" single>
+        <t-collapse-item title="标题1" name="1">内容111111111111</t-collapse-item>
+        <t-collapse-item title="标题2" name="2">内容222222222222</t-collapse-item>
+        <t-collapse-item title="标题3" name="3">内容333333333333</t-collapse-item>
+      </t-collapse>
     </div>
   </div>
 </template>
@@ -20,8 +20,8 @@ export default {
     }
   },
   components: {
-    'i-collapse': Collapse,
-    'i-collapse-item': CollapseItem
+    't-collapse': Collapse,
+    't-collapse-item': CollapseItem
   }
 }
 </script>

@@ -7,7 +7,7 @@ title:快速上手
 ### npm 安装
 
 ```bash
-npm i ice-vue-ui -S
+npm i tue-ui
 ```
 
 ### 开始使用
@@ -22,21 +22,21 @@ npm i ice-vue-ui -S
 
 IE 8及以上浏览器都支持此样式
 
-2. 引入 ice-vue-ui
+2. 引入 tue-ui
 
 按需引入需要的组件，以达到减小项目体积的目的。
 
 需要注意的是，样式文件要记得引入。
 
 ```js
-import {Button, ButtonGroup, Icon} from 'ice-vue-ui'
-import 'ice-vue-ui/dist/index.css'
+import {Button, Icon} from 'tue-ui'
+import 'tue-ui/dist/index.css'
 
 export default {
   name: 'app',
   components: {
-    'i-button': Button,
-    'i-icon': Icon
+    't-button': Button,
+    't-icon': Icon
   }
 }
 ```
@@ -68,26 +68,26 @@ import {
     Collapse,
     CollapseItem
 
-} from 'ice-vue-ui'
+} from 'tue-ui'
 
-Vue.component('i-button', Button)
-Vue.component('i-icon', Icon)
-Vue.component('i-button-group', ButtonGroup)
-Vue.component('i-input', Input)
-Vue.component('i-row',Row)
-Vue.component('i-col',Col)
-Vue.component('i-layout',Layout)
-Vue.component('i-header',Header)
-Vue.component('i-sider',Sider)
-Vue.component('i-content',Content)
-Vue.component('i-footer',Footer)
+Vue.component('t-button', Button)
+Vue.component('t-icon', Icon)
+Vue.component('t-button-group', ButtonGroup)
+Vue.component('t-input', Input)
+Vue.component('t-row',Row)
+Vue.component('t-col',Col)
+Vue.component('t-layout',Layout)
+Vue.component('t-header',Header)
+Vue.component('t-sider',Sider)
+Vue.component('t-content',Content)
+Vue.component('t-footer',Footer)
 Vue.use(plugin)                           // toast 组件的使用方法
-Vue.component('i-tabs',Tabs)
-Vue.component('i-tabs-head',TabsHead)
-Vue.component('i-tabs-body',TabsBody)
-Vue.component('i-tabs-item',TabsItem)
-Vue.component('i-tabs-pane',TabsPane)
-Vue.component('i-popover',Popover)
-Vue.component('i-collapse',Collapse)
-Vue.component('i-collapse-item',CollapseItem)
+Vue.component('t-tabs',Tabs)
+Vue.component('t-tabs-head',TabsHead)
+Vue.component('t-tabs-body',TabsBody)
+Vue.component('t-tabs-item',TabsItem)
+Vue.component('t-tabs-pane',TabsPane)
+Vue.component('t-popover',Popover)
+Vue.component('t-collapse',Collapse)
+Vue.component('t-collapse-item',CollapseItem)
 ```

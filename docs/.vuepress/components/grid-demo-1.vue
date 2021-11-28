@@ -1,88 +1,88 @@
 <template>
   <div>
-    <i-row class="demoRow">
-      <i-col span="8">
+    <t-row class="demoRow">
+      <t-col span="8">
         <div class="demoCol">8</div>
-      </i-col>
-      <i-col span="8">
+      </t-col>
+      <t-col span="8">
         <div class="demoCol">8</div>
-      </i-col>
-      <i-col span="8">
+      </t-col>
+      <t-col span="8">
         <div class="demoCol">8</div>
-      </i-col>
-    </i-row>
-    <i-row class="demoRow">
-      <i-col span="6">
+      </t-col>
+    </t-row>
+    <t-row class="demoRow">
+      <t-col span="6">
         <div class="demoCol">6</div>
-      </i-col>
-      <i-col span="6">
+      </t-col>
+      <t-col span="6">
         <div class="demoCol">6</div>
-      </i-col>
-      <i-col span="6">
+      </t-col>
+      <t-col span="6">
         <div class="demoCol">6</div>
-      </i-col>
-      <i-col span="6">
+      </t-col>
+      <t-col span="6">
         <div class="demoCol">6</div>
-      </i-col>
-    </i-row>
-    <i-row class="demoRow">
-      <i-col span="4">
+      </t-col>
+    </t-row>
+    <t-row class="demoRow">
+      <t-col span="4">
         <div class="demoCol">4</div>
-      </i-col>
-      <i-col span="4">
+      </t-col>
+      <t-col span="4">
         <div class="demoCol">4</div>
-      </i-col>
-      <i-col span="4">
+      </t-col>
+      <t-col span="4">
         <div class="demoCol">4</div>
-      </i-col>
-      <i-col span="4">
+      </t-col>
+      <t-col span="4">
         <div class="demoCol">4</div>
-      </i-col>
-      <i-col span="4">
+      </t-col>
+      <t-col span="4">
         <div class="demoCol">4</div>
-      </i-col>
-      <i-col span="4">
+      </t-col>
+      <t-col span="4">
         <div class="demoCol">4</div>
-      </i-col>
-    </i-row>
-    <i-row class="demoRow">
-      <i-col span="2">
+      </t-col>
+    </t-row>
+    <t-row class="demoRow">
+      <t-col span="2">
         <div class="demoCol">2</div>
-      </i-col>
-      <i-col span="2">
+      </t-col>
+      <t-col span="2">
         <div class="demoCol">2</div>
-      </i-col>
-      <i-col span="2">
+      </t-col>
+      <t-col span="2">
         <div class="demoCol">2</div>
-      </i-col>
-      <i-col span="2">
+      </t-col>
+      <t-col span="2">
         <div class="demoCol">2</div>
-      </i-col>
-      <i-col span="2">
+      </t-col>
+      <t-col span="2">
         <div class="demoCol">2</div>
-      </i-col>
-      <i-col span="2">
+      </t-col>
+      <t-col span="2">
         <div class="demoCol">2</div>
-      </i-col>
-      <i-col span="2">
+      </t-col>
+      <t-col span="2">
         <div class="demoCol">2</div>
-      </i-col>
-      <i-col span="2">
+      </t-col>
+      <t-col span="2">
         <div class="demoCol">2</div>
-      </i-col>
-      <i-col span="2">
+      </t-col>
+      <t-col span="2">
         <div class="demoCol">2</div>
-      </i-col>
-      <i-col span="2">
+      </t-col>
+      <t-col span="2">
         <div class="demoCol">2</div>
-      </i-col>
-      <i-col span="2">
+      </t-col>
+      <t-col span="2">
         <div class="demoCol">2</div>
-      </i-col>
-      <i-col span="2">
+      </t-col>
+      <t-col span="2">
         <div class="demoCol">2</div>
-      </i-col>
-    </i-row>
+      </t-col>
+    </t-row>
   </div>
 </template>
 <script>
@@ -90,8 +90,8 @@ import Row from '../../../src/row'
 import Col from '../../../src/col'
 export default {
   components:{
-    'i-row':Row,
-    'i-col':Col,
+    't-row':Row,
+    't-col':Col,
   }
 }
 </script>

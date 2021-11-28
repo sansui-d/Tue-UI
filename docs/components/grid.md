@@ -3,8 +3,6 @@ title: Grid 栅格
 ---
 # Grid 栅格
 
-**使用方法**
-
 ### 24网格
 
 #### 预览
@@ -16,89 +14,89 @@ title: Grid 栅格
 #### 示例代码 
 
 ```vue
-<i-row class="demoRow">
-  <i-col span="8">
+<t-row class="demoRow">
+  <t-col span="8">
     <div class="demoCol">8</div>
-  </i-col>
-  <i-col span="8">
+  </t-col>
+  <t-col span="8">
     <div class="demoCol">8</div>
-  </i-col>
-  <i-col span="8">
+  </t-col>
+  <t-col span="8">
     <div class="demoCol">8</div>
-  </i-col>
-</i-row>
-<i-row class="demoRow">
-  <i-col span="6">
+  </t-col>
+</t-row>
+<t-row class="demoRow">
+  <t-col span="6">
     <div class="demoCol">6</div>
-  </i-col>
-  <i-col span="6">
+  </t-col>
+  <t-col span="6">
     <div class="demoCol">6</div>
-  </i-col>
-  <i-col span="6">
+  </t-col>
+  <t-col span="6">
     <div class="demoCol">6</div>
-  </i-col>
-  <i-col span="6">
+  </t-col>
+  <t-col span="6">
     <div class="demoCol">6</div>
-  </i-col>
-</i-row>
-<i-row class="demoRow">
-  <i-col span="4">
+  </t-col>
+</t-row>
+<t-row class="demoRow">
+  <t-col span="4">
     <div class="demoCol">4</div>
-  </i-col>
-  <i-col span="4">
+  </t-col>
+  <t-col span="4">
     <div class="demoCol">4</div>
-  </i-col>
-  <i-col span="4">
+  </t-col>
+  <t-col span="4">
     <div class="demoCol">4</div>
-  </i-col>
-  <i-col span="4">
+  </t-col>
+  <t-col span="4">
     <div class="demoCol">4</div>
-  </i-col>
-  <i-col span="4">
+  </t-col>
+  <t-col span="4">
     <div class="demoCol">4</div>
-  </i-col>
-  <i-col span="4">
+  </t-col>
+  <t-col span="4">
     <div class="demoCol">4</div>
-  </i-col>
-</i-row>
-<i-row class="demoRow">
-  <i-col span="2">
+  </t-col>
+</t-row>
+<t-row class="demoRow">
+  <t-col span="2">
     <div class="demoCol">2</div>
-  </i-col>
-  <i-col span="2">
+  </t-col>
+  <t-col span="2">
     <div class="demoCol">2</div>
-  </i-col>
-  <i-col span="2">
+  </t-col>
+  <t-col span="2">
     <div class="demoCol">2</div>
-  </i-col>
-  <i-col span="2">
+  </t-col>
+  <t-col span="2">
     <div class="demoCol">2</div>
-  </i-col>
-  <i-col span="2">
+  </t-col>
+  <t-col span="2">
     <div class="demoCol">2</div>
-  </i-col>
-  <i-col span="2">
+  </t-col>
+  <t-col span="2">
     <div class="demoCol">2</div>
-  </i-col>
-  <i-col span="2">
+  </t-col>
+  <t-col span="2">
     <div class="demoCol">2</div>
-  </i-col>
-  <i-col span="2">
+  </t-col>
+  <t-col span="2">
     <div class="demoCol">2</div>
-  </i-col>
-  <i-col span="2">
+  </t-col>
+  <t-col span="2">
     <div class="demoCol">2</div>
-  </i-col>
-  <i-col span="2">
+  </t-col>
+  <t-col span="2">
     <div class="demoCol">2</div>
-  </i-col>
-  <i-col span="2">
+  </t-col>
+  <t-col span="2">
     <div class="demoCol">2</div>
-  </i-col>
-  <i-col span="2">
+  </t-col>
+  <t-col span="2">
     <div class="demoCol">2</div>
-  </i-col>
-</i-row>
+  </t-col>
+</t-row>
 ```
 
 ### 设置 gutter
@@ -112,31 +110,31 @@ title: Grid 栅格
 #### 示例代码
 
 ```vue
-<i-row class="demoRow" gutter="10">
-  <i-col span="8">
+<t-row class="demoRow" gutter="10">
+  <t-col span="8">
     <div class="demoCol">8</div>
-  </i-col>
-  <i-col span="8">
+  </t-col>
+  <t-col span="8">
     <div class="demoCol">8</div>
-  </i-col>
-  <i-col span="8">
+  </t-col>
+  <t-col span="8">
     <div class="demoCol">8</div>
-  </i-col>
-</i-row>
-<i-row class="demoRow" gutter="10">
-  <i-col span="6">
+  </t-col>
+</t-row>
+<t-row class="demoRow" gutter="10">
+  <t-col span="6">
     <div class="demoCol">6</div>
-  </i-col>
-  <i-col span="6">
+  </t-col>
+  <t-col span="6">
     <div class="demoCol">6</div>
-  </i-col>
-  <i-col span="6">
+  </t-col>
+  <t-col span="6">
     <div class="demoCol">6</div>
-  </i-col>
-  <i-col span="6">
+  </t-col>
+  <t-col span="6">
     <div class="demoCol">6</div>
-  </i-col>
-</i-row>
+  </t-col>
+</t-row>
 ```
 
 ### 设置空隙
@@ -150,59 +148,59 @@ title: Grid 栅格
 #### 示例代码
 
 ```vue
-<i-row class="demoRow" gutter="10">
-  <i-col span="8">
+<t-row class="demoRow" gutter="10">
+  <t-col span="8">
     <div class="demoCol">8</div>
-  </i-col>
-  <i-col span="8" offset="8">
+  </t-col>
+  <t-col span="8" offset="8">
     <div class="demoCol">8</div>
-  </i-col>
-</i-row>
-<i-row class="demoRow" gutter="10">
-  <i-col span="6" offset="6">
+  </t-col>
+</t-row>
+<t-row class="demoRow" gutter="10">
+  <t-col span="6" offset="6">
     <div class="demoCol">6</div>
-  </i-col>
-  <i-col span="6" offset="6">
+  </t-col>
+  <t-col span="6" offset="6">
     <div class="demoCol">6</div>
-  </i-col>
-</i-row>
-<i-row class="demoRow" gutter="10">
-  <i-col span="4">
+  </t-col>
+</t-row>
+<t-row class="demoRow" gutter="10">
+  <t-col span="4">
     <div class="demoCol">4</div>
-  </i-col>
-  <i-col span="4" offset="4">
+  </t-col>
+  <t-col span="4" offset="4">
     <div class="demoCol">4</div>
-  </i-col>
-  <i-col span="4" offset="8">
+  </t-col>
+  <t-col span="4" offset="8">
     <div class="demoCol">4</div>
-  </i-col>
-</i-row>
-<i-row class="demoRow" gutter="10">
-  <i-col span="2">
+  </t-col>
+</t-row>
+<t-row class="demoRow" gutter="10">
+  <t-col span="2">
     <div class="demoCol">2</div>
-  </i-col>
-  <i-col span="2" offset="2">
+  </t-col>
+  <t-col span="2" offset="2">
     <div class="demoCol">2</div>
-  </i-col>
-  <i-col span="2">
+  </t-col>
+  <t-col span="2">
     <div class="demoCol">2</div>
-  </i-col>
-  <i-col span="2" offset="2">
+  </t-col>
+  <t-col span="2" offset="2">
     <div class="demoCol">2</div>
-  </i-col>
-  <i-col span="2">
+  </t-col>
+  <t-col span="2">
     <div class="demoCol">2</div>
-  </i-col>
-  <i-col span="2" offset="2">
+  </t-col>
+  <t-col span="2" offset="2">
     <div class="demoCol">2</div>
-  </i-col>
-  <i-col span="2">
+  </t-col>
+  <t-col span="2">
     <div class="demoCol">2</div>
-  </i-col>
-  <i-col span="2" offset="2">
+  </t-col>
+  <t-col span="2" offset="2">
     <div class="demoCol">2</div>
-  </i-col>
-</i-row>
+  </t-col>
+</t-row>
 ```
 
 # Attributes

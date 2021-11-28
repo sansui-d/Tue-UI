@@ -1,22 +1,17 @@
 <template>
-  <div style="padding-top: 16px;">
-
-    <i-layout style="color: white; overflow:hidden; margin-bottom:50px;">
-      <i-sider style=" background:#ddd; width:200px; color: black;">
+  <div style="padding-top: 16px">
+    <t-layout style="color: white; overflow: hidden; margin-bottom: 50px">
+      <t-sider style="background: #66b1ff; width: 200px; color: white">
         sider
-      </i-sider>
-      <i-layout>
-        <i-header style="height: 50px; background:#9E91F2;">
-          header
-        </i-header>
-        <i-content style="height: 100px; background:#7B62D9;">
+      </t-sider>
+      <t-layout>
+        <t-header style="height: 50px; background: #409eff"> header </t-header>
+        <t-content style="height: 100px; background: #c6e2ff">
           content
-        </i-content>
-        <i-footer style="height: 50px; background:#9E91F2;">
-          footer
-        </i-footer>
-      </i-layout>
-    </i-layout>
+        </t-content>
+        <t-footer style="height: 50px; background: #409eff"> footer </t-footer>
+      </t-layout>
+    </t-layout>
   </div>
 </template>
 <style scoped>
@@ -25,13 +20,13 @@
 }
 </style>
 <script>
-import ILayout from '../../../src/layout'
-import IHeader from '../../../src/header'
-import IFooter from '../../../src/footer'
-import IContent from '../../../src/content'
-import ISider from '../../../src/sider'
+import TLayout from "../../../src/layout";
+import THeader from "../../../src/header";
+import TFooter from "../../../src/footer";
+import TContent from "../../../src/content";
+import TSider from "../../../src/sider";
 
 export default {
-  components: {ILayout, IHeader, IFooter, IContent, ISider},
-}
+  components: { TLayout, THeader, TFooter, TContent, TSider },
+};
 </script>

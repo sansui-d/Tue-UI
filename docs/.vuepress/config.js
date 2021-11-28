@@ -1,13 +1,13 @@
 module.exports = {
-  base:'/ice-ui/',
-  title: 'Ice-UI',
+  base:'/tue-ui/',
+  title: '',
   description: '一个简约、易用的 UI 框架',
   themeConfig: {
     logo: '/assets/img/logo.png',
     nav: [
       {text: '主页', link: '/'},
       {text: '文档', link: '/get-started/'},
-      {text: 'Github', link: 'https://github.com/Orange-ice/Ice-UI'},
+      {text: 'Github', link: 'https://github.com/sansui-d/Tue-UI'},
     ],
     displayAllHeaders: true, // 默认值：false
     sidebar: [

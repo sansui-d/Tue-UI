@@ -2,7 +2,7 @@
   <div style="padding-top: 16px;">
 
     <div>
-      <i-button @click="onClickButton">上方弹出</i-button>
+      <t-button @click="onClickButton">上方弹出</t-button>
     </div>
 
   </div>
@@ -20,13 +20,13 @@
 </style>
 <script>
 import plugin from '../../../src/plugin'
-import IButton from '../../../src/button'
+import TButton from '../../../src/button'
 import Vue from 'vue'
 
 Vue.use(plugin)
 
 export default {
-  components: {IButton},
+  components: {TButton},
   methods: {
     onClickButton () {
       this.$toast('<strong style="color:red;">加粗的提示</strong>', {

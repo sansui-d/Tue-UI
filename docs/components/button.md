@@ -6,7 +6,7 @@ title: Button 按钮
 **导入**
 
 ```js
-import {Button, Icon} from 'tue-ui'
+import {Button, Icon} from 'tue-ui/index.js'
 import 'tue-ui/dist/index.css'
 
 export default {
@@ -60,6 +60,6 @@ export default {
 # Attributes
 |参数| 说明 |  类型  | 可选值 | 默认值 |
 | :-------------: |:-------------:| :-----:|:-----:|:-----:|
-| icon | 设置内置的icon |    String | setting，info，left，right，download，loading，thumbs-up，down| -- 
+| icon | 设置内置的icon |    String | setting，left，right，download，loading，thumbs-up| -- 
 |iconPosition|图标位置|String|left、right|left
 | loading      | 加载状态      |  Boolean |true、false| false

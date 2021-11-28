@@ -19,7 +19,8 @@ import Popover from './src/popover'
 import Collapse from './src/collapse'
 import CollapseItem from './src/collapse-item'
 
-export {Button,Icon,Input,Col,Row,Layout,Header,Footer,
-  Sider,Content,Toast,plugin,Tabs,TabsHead,TabsBody,TabsItem,TabsPane,
-  Popover,Collapse,CollapseItem,
+export {
+  Button, Icon, Input, Col, Row, Layout, Header, Footer,
+  Sider, Content, Toast, plugin, Tabs, TabsHead, TabsBody, TabsItem, TabsPane,
+  Popover, Collapse, CollapseItem,
 }

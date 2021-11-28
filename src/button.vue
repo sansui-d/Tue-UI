@@ -45,18 +45,10 @@ export default {
     transform: rotate(360deg);
   }
 }
-button {
-  &:hover {
-    color: #409eff;
-    border-color: #c6e2ff;
-    background-color: #ecf5ff;
-  }
-}
 .t-default {
   // color: white;
   background: $button-bg;
   border: 1px solid $border-color;
-
   &:hover {
     color: #409eff;
     border-color: #c6e2ff;
@@ -126,20 +118,13 @@ button {
   justify-content: center;
   align-items: center;
   vertical-align: bottom;
-
-  // &:active {
-  //   background-color: #409eff;
-  // }
-
   &:focus {
     outline: none;
   }
-
   > .content {
     order: 2;
     line-height: $font-size;
   }
-
   // 不加行高 文字没法和 icon 对齐，应该是浏览器问题吧...
   > .icon {
     order: 1;

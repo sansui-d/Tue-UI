@@ -38,9 +38,9 @@ export default {
     },
     selectTab(){
       this.$children.forEach((vm)=>{
-        if(vm.$options.name === 'IceTabsHead'){
+        if(vm.$options.name === 'TueTabsHead'){
           vm.$children.forEach((childVm)=>{
-            if(childVm.$options.name === 'IceTabsItem' && childVm.name ===this.selected){
+            if(childVm.$options.name === 'TueTabsItem' && childVm.name ===this.selected){
               this.eventBus.$emit('update:selected',this.selected,childVm)
             }
           })

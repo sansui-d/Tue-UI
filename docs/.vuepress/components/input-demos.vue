@@ -1,15 +1,12 @@
 <template>
   <div>
     <div class="easy">
-      <i-input placeholder="请输入内容"></i-input>
-      <i-input value="默认内容"></i-input>
-      <i-input disabled value="默认内容"></i-input>
-    </div>
-    <div class="error">
-      <i-input error="用户名不低于两个字"></i-input>
+      <t-input placeholder="请输入内容"></t-input>
+      <t-input value="默认内容"></t-input>
+      <t-input disabled value="默认内容"></t-input>
     </div>
     <div class="bindDate">
-      <i-input v-model="value"></i-input>
+      <t-input v-model="value"></t-input>
       <p>value: {{value}}</p>
     </div>
   </div>
@@ -17,7 +14,7 @@
 <script>
 import Input from '../../../src/input'
 export default {
-  components:{'i-input':Input},
+  components:{'t-input':Input},
   data(){
     return{
       value:'默认内容'
