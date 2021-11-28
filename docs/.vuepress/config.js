@@ -1,5 +1,5 @@
 module.exports = {
-  base:'/tue-ui/',
+  base:'./Tue-UI/',
   title: '',
   description: '一个简约、易用的 UI 框架',
   themeConfig: {
