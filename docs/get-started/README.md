@@ -41,6 +41,30 @@ export default {
 }
 ```
 
+PS:可能存在vue-cli版本的问题，推荐2种引入方式：
+
+```js
+//方案一
+import {Button, Icon} from 'tue-ui'
+import 'tue-ui/dist/index.css'
+
+export default {
+  name: 'app',
+  components: { Button, Icon}
+}
+//方案二
+import {Button, Icon} from 'tue-ui/index.js'
+import 'tue-ui/dist/index.css'
+
+export default {
+  name: 'app',
+  components: {
+    't-button': Button,
+    't-icon': Icon
+  }
+}
+```
+
 **完整组件列表和引入方式**
 
 ```js
