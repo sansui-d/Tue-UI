@@ -1,6 +1,6 @@
 module.exports = {
   base:'/Tue-UI/',
-  title: '',
+  title: '一个基于VUE的UI组件库',
   description: '一个简约、易用的 UI 框架',
   themeConfig: {
     logo: '/assets/img/logo.png',
